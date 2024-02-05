@@ -45,10 +45,10 @@ unsigned long last_press = 0;
 //Функция аудиоприветствия
 void hello() {
   for (int i = 1; i < 5; i++) {
-    //tone(buz_pin, i * 1000);
+    tone(buz_pin, i * 1000);
     delay(100);
   }
-  //tone(buz_pin, 0);
+  tone(buz_pin, 0);
   delay(100);
   oled.setScale(2);
   oled.setCursor(10, 3);
@@ -143,7 +143,7 @@ void setup() {
  }
 
 
-BLYNK_WRITE(V3) // this command is listening when something is written to V1
+BLYNK_WRITE(V3) // this command is listening when something is written to V3
 {
   int pinValue = param.asInt(); // assigning incoming value from pin V1 to a variable
   if (pinValue == 1){
@@ -154,7 +154,7 @@ BLYNK_WRITE(V3) // this command is listening when something is written to V1
   light=pinValue;
 }
 
-BLYNK_WRITE(V4) // this command is listening when something is written to V1
+BLYNK_WRITE(V4) // this command is listening when something is written to V4
 {
   int pinValue = param.asInt(); // assigning incoming value from pin V1 to a variable
   if (pinValue == 1){
@@ -164,8 +164,6 @@ BLYNK_WRITE(V4) // this command is listening when something is written to V1
   }
   sound=pinValue;
 }
-
-
 
 void loop() {
   Blynk.run();
@@ -220,10 +218,6 @@ void loop() {
     }
     sprintf(buf2, "Ст: %.1fмкР/ч ", radSens.getRadIntensyStatic()); // Собираем строку с показаниями средней интенсивности за период работы
     sprintf(buf3, "%.1fcps ", cpulses);
-
-    //BLYNK_WRITE(V3);
-    //BLYNK_WRITE(V4);
-
     Blynk.virtualWrite(V0,cpulses);
     Blynk.virtualWrite(V1,din);
     Blynk.virtualWrite(V2,radSens.getRadIntensyStatic());
