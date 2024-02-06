@@ -83,8 +83,15 @@ Blynk сервер - blynk.tk<br>
 <br>
 пример отображения данных в мобильном приложении Blynk
 <br>
-<img src="https://github.com/dimkra/RadSens-Blynk.tk/assets/37121139/c710e1c0-8256-446f-a18e-244fac3d791f" width="300" >
+<img src="https://github.com/dimkra/RadSens-Blynk.tk/assets/37121139/c710e1c0-8256-446f-a18e-244fac3d791f" height="300" >
 <br><br>
 Управление через API:
 <br>
 Пример: https://api.blynk.tk/{TOKEN}/update/V0?value=0
+<br>
+<br>
+Радиометр на счетчике СБТ10-А<br>
+<img src="https://github.com/dimkra/RadSens-Blynk.tk/assets/37121139/ce5edef4-ffa7-486c-9744-5d551454c4cb" height="300" >
+<img src="https://github.com/dimkra/RadSens-Blynk.tk/assets/37121139/6a219e76-256d-49c3-bdfa-8815731dfe76" height="300" >
+
+
