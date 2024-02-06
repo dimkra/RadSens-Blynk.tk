@@ -84,7 +84,7 @@ Blynk сервер - blynk.tk<br>
 пример отображения данных в мобильном приложении Blynk
 <br>
 <img src="https://github.com/dimkra/RadSens-Blynk.tk/assets/37121139/c710e1c0-8256-446f-a18e-244fac3d791f" width="300" >
-<br>
+<br><br>
 Управление через API:
 <br>
 Пример: https://api.blynk.tk/{TOKEN}/update/V0?value=0
