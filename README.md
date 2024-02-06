@@ -64,6 +64,14 @@ Blynk сервер - blynk.tk
 производить точные измерения постоянного радиационного фона. Частота
 обновления – 1 сек.
 
+пример отображения данных в мобильном приложении
+
+
+![Изображение WhatsApp 2024-02-06 в 09 48 34_5f0138c1](https://github.com/dimkra/RadSens-Blynk.tk/assets/37121139/c710e1c0-8256-446f-a18e-244fac3d791f)
+
+
+<img src="[https://your-image-url.type](https://github.com/dimkra/RadSens-Blynk.tk/assets/37121139/c710e1c0-8256-446f-a18e-244fac3d791f)" width="100" height="100">
+
 Настройка чувствительности счетчика:
 radSens.setSensitivity(105);
 значение 105 - по умолчанию для счетчика СБМ-20.
