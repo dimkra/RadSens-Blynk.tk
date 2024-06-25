@@ -50,6 +50,7 @@ LSD дисплей 128x160 ST7735S с шиной SPI
 <br>
 Adafruit-ST7735-Library<br>
 https://github.com/adafruit/Adafruit-ST7735-Library<br>
+<br>
 FileDat от AlexGyver<br>
 https://github.com/GyverLibs/FileData<br>
 <br>
