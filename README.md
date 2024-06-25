@@ -44,7 +44,7 @@ OLSD дисплей 120х64 с шиной  I2C
 <br>
 Пищалка<br>
 <br>
-<img src="https://github.com/dimkra/RadSens-Blynk.tk/assets/37121139/4fac085c-ec10-4862-9456-7bf28099bbb1" width="700" >
+<img src="image/shema7_2.jpg" width="700" >
 <br><br>
 В проекте используются следующие библиотеки:<br>
 <br>
