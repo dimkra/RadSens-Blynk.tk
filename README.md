@@ -38,7 +38,7 @@ LSD дисплей 128x160 ST7735S с шиной SPI
 <br>
 Литьевый аккумулятор
 <br>
-Кнопка
+Кнопка -3шт
 <br>
 Выключатель
 <br>
@@ -48,8 +48,8 @@ LSD дисплей 128x160 ST7735S с шиной SPI
 <br><br>
 В проекте используются следующие библиотеки:<br>
 <br>
-GyverOLED от AlexGyver<br>
-https://github.com/GyverLibs/GyverOLED<br>
+Adafruit-ST7735-Library<br>
+https://github.com/adafruit/Adafruit-ST7735-Library<br>
 <br>
 Official RadSens library by ClimateGuard<br>
 https://github.com/climateguard/RadSens<br>
