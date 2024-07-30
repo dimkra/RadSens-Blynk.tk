@@ -12,7 +12,7 @@ struct Data {
 Data mydata;
 FileData data(&LittleFS, "/data.dat", 'B', &mydata, sizeof(mydata));
 
-#define BLYNK_AUTH_TOKEN "9V3d75MV9WoS96JqYYWoDxIMOql5IzKu"
+#define BLYNK_AUTH_TOKEN ""
 #include <Wire.h>
 #include <CG_RadSens.h>
 #include <BlynkSimpleEsp8266.h>
@@ -21,8 +21,8 @@ FileData data(&LittleFS, "/data.dat", 'B', &mydata, sizeof(mydata));
 #define buz_pin D6  // Задаём значения пина для пищалки
 
 CG_RadSens radSens(RS_DEFAULT_I2C_ADDRESS);  // инициализируем RadSens
-char ssid[] = "Keenetic-3468";
-char pass[] = "Cwq4512%";
+char ssid[] = "";
+char pass[] = "";
 char auth[] = BLYNK_AUTH_TOKEN;
 
 #include <Adafruit_GFX.h>    // Core graphics library
