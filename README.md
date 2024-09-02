@@ -108,4 +108,6 @@ Blynk сервер - blynk.tk<br>
 <img src="https://github.com/user-attachments/assets/8a0f3be5-1232-48b7-af1a-84f5606b523e" height="300" >
 
 
+![2024-07-31 10-57-26](https://github.com/user-attachments/assets/ad61904d-ca71-4d67-b5c3-2b3166697494)
+
 
