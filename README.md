@@ -104,7 +104,8 @@ Blynk сервер - blynk.tk<br>
 <br>
 <br>
 Радиометр на счетчике СБТ10-А<br>
-<img src="https://github.com/dimkra/RadSens-Blynk.tk/assets/37121139/ce5edef4-ffa7-486c-9744-5d551454c4cb" height="300" >
-<img src="https://github.com/dimkra/RadSens-Blynk.tk/assets/37121139/6a219e76-256d-49c3-bdfa-8815731dfe76" height="300" >
+<img src="https://github.com/user-attachments/assets/c3d92cc3-b500-42e2-ad2f-a3a8598bb3a0" height="300" >
+<img src="https://github.com/user-attachments/assets/8a0f3be5-1232-48b7-af1a-84f5606b523e" height="300" >
+
 
 
